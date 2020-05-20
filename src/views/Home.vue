@@ -5,10 +5,14 @@
 </template>
 
 <script>
-
 export default {
   name: 'Home',
   components: {
+
+  },
+  mounted(){
+    const moment = require('moment');
+    console.log(moment().format());
   }
 }
 </script>
